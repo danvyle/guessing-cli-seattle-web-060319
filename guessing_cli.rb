@@ -4,7 +4,7 @@ def run_guessing_game
   computer_guess = rand(1..6)
     if user_guess == "exit"
       puts "Goodbye!"
-      # break
+      # learn
     elsif computer_guess == user_guess.to_i
       puts "You guessed the correct number!"
     elsif computer_guess != user_guess.to_i
